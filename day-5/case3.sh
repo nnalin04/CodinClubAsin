@@ -2,7 +2,7 @@
 echo "enter a number"
 read n
 
-case ${#n} in 
+case $n in 
     1)
     echo "unit";;
     2)
